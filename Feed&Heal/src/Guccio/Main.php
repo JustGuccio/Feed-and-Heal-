@@ -29,7 +29,7 @@ class main extends PluginBase implements Listener{
                     $sender->sendMessage("Vous avez bien été Feed!!");
 
                 }
-            }
+        }
 
 
         if($commandname == "heal"){
@@ -38,5 +38,6 @@ class main extends PluginBase implements Listener{
                 $sender->sendMessage("Vous avez bien été Heal!!");
             }
         }
+        return true;
     }
 }
