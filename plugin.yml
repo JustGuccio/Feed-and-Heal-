@@ -1,0 +1,11 @@
+name: Feed-Heal
+author: Guccio
+version: 1.0.0
+api: 4.0.0
+main: Guccio\Main
+
+permissions:
+  heal.use:
+    default: op
+  feed.use:
+    default: op
